@@ -171,23 +171,23 @@ describe('Blog API resource', function() {
 
     describe('DELETE endpoint', function() {
 
-    	it('should delete the post', function() {
-    		let post;
+        it('should delete the post', function() {
+            let post;
 
-    		return BlogPost
-    		.findOne()
-    		.exec()
-    		.then(function(_post) {
-    			post = _post;
-    			return chai.request(app).delete(`/posts/${post.id}`);
-    		})
-    		.then(function(res) {
-    			res.should.have.status(204);
-    			return BlogPost.findById(post.id).exec()
-    		})
-    		.then(function(_post) {
-    			should.not.exist(_post);
-    		});
-    	});
+            return BlogPost
+                .findOne()
+                .exec()
+                .then(function(_post) {
+                    post = _post;
+                    return chai.request(app).delete(`/posts/${post.id}`);
+                })
+                .then(function(res) {
+                    res.should.have.status(204);
+                    return BlogPost.findById(post.id).exec()
+                })
+                .then(function(_post) {
+                    should.not.exist(_post);
+                });
+        });
     });
 });
