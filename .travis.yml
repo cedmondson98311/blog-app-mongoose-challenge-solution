@@ -4,7 +4,7 @@ services:
 - mongodb
 deploy:
   provider: heroku
-  api_key:b23eb9c8-bf12-4506-b0d9-d0d0ab6983c6
+  api_key: b23eb9c8-bf12-4506-b0d9-d0d0ab6983c6
   app: protected-eyrie-23295
   on:
     repo: cedmondson98311/blog-app-mongoose-challenge-solution
