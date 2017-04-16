@@ -6,6 +6,6 @@ deploy:
   provider: heroku
   api_key:
     secure: jyG2ZOJYuNFqOCUR2KV7HdFZRmN+uvvimv/aEftl6hSSgE/XEY1q+KeyGN4nOECSdkHaeBCK0Ur+bV3xaaUJKKf0RfoFHJLX9PWprJEQwfhPkXdF2Ss8Xgdn8ImgAdyGb9xbClcU4pkpmFuVnMDaKEhWts+P2wAPXW9wikHQXCqjfDM74iFAk54d6MvGmiF0K+CA295SlBwyPvSYY8aoqPaH6OFjJMTTzG4sz+JpuZDu0jq4UpXsaWnUTaoJJF2SheMyICZ8U2SNCoaKzmJFkIq7rVcmbk1FrJ6/exXgEMqMsJsXszxeE4P1Vz6nK46T4m8+kovrqwCU1cbvXlis7/K5dnTQPUF8ZF8h70CQKHpeOTQ39G9OM9IflNG/gu2csBYA0wclvCA87S8sjvRvVifHEBEMJZACJ74BS0HcT+6gH4jL/Xs9gVxvWQgkAIuT/hUWwJKItkZHciAHjPRnxKehOXYeU7Gc5lSTqQH4kT4IAWdjGRvrZcnC2Evekx2SnxdQsDGMYzzAF1juha5u4/TlSeKKkOasTY1a1yXMNoBhB1Ya8/65lMsC43aMTCYufHbP5I37z0L5I6XRTFLXZ5DY0l6Is5xEp5b/D2OFPwVr6iCwJa79d/uYHQ9CYFFnvFMIU/d2PA58vi6kB3emNNfo+MsJyGnlyZgneY8oHII=
-  app: blog-app-mongoose-challenge-solution
+  app: protected-eyrie-23295
   on:
     repo: cedmondson98311/blog-app-mongoose-challenge-solution
